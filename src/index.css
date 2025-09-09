@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f7f9fd;
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+}
+
+@theme{
+  --color-primary: #27549D;
+  --color-background:#f7f9fd;
+  --color-secondary: #7099DB;
+  --color-accent: #F1FF24;
+  --color-light-grey: #FFFFFF4D;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+}
